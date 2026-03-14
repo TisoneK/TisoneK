@@ -1,60 +1,152 @@
 # Tisone Kironget
 
-> "The wall is never the end, it's just information about what to build next."
+> "The wall is never the end — it's just information about what to build next."
 
-Developer. Tester. Automator. Founder @ Sky Tech Solutions.  
+Software developer focused on automation, scraping systems, and data pipelines.  
+Founder at **Sky Tech Solutions**.  
 Based in Nairobi, Kenya.
 
 ---
 
-## Projects
+# Featured Projects
 
-### 🕷️ [Scrapamoja](https://github.com/TisoneK/scrapamoja)
-Production-grade Python scraping framework combining Playwright browser automation with direct HTTP API extraction. Supports DOM scraping, network interception, Cloudflare bypass, and proxy rotation.
+## 🕷 Scrapamoja
+Hybrid browser-API scraping framework designed to survive website changes.
 
-### 🏀 [ScoreWise](https://github.com/TisoneK/ScoreWise)
+Scrapamoja combines browser automation and direct HTTP extraction to build resilient scraping pipelines. It focuses on selector recovery, DOM analysis, and intelligent fallback strategies.
+
+https://github.com/TisoneK/scrapamoja
+
+---
+
+## 🏀 ScoreWise
 Basketball prediction algorithm built on scraped match data and statistical modeling.
 
-### ⚡ [flashscore-scraper](https://github.com/TisoneK/flashscore-scraper)
-Scraper for Flashscore match data — powers ScoreWise's data pipeline.
+ScoreWise analyzes team performance, head-to-head matchups, and scoring rhythm to generate over/under predictions and expected score ranges.
 
-### 📋 [Task2SMS](https://github.com/TisoneK/Task2SMS)
-Web-based automation tool that sends SMS updates based on task schedules or conditions.
+https://github.com/TisoneK/ScoreWise
 
 ---
 
-## Stack
+## ⚡ flashscore-scraper
+Data collection engine used to gather match statistics from Flashscore.
 
-**Languages**  
-Python · JavaScript
+This project powers ScoreWise by extracting historical match data used for modeling and prediction.
 
-**Automation & Scraping**  
-Playwright · httpx · Selenium
-
-**Testing**  
-pytest · unittest
-
-**Tools**  
-Git · GitHub Actions · Docker
+https://github.com/TisoneK/flashscore-scraper
 
 ---
 
-## About
+## 📋 Task2SMS
+Automation tool that sends SMS notifications based on task conditions or schedules.
 
-I build software that solves real problems — scrapers, predictors, automators, frameworks.  
-No specialty. No niche. Just whatever needs building.
+Useful for alerts, reminders, and automated workflow notifications.
 
-Currently working on:
-- **Scrapamoja** — evolving from a browser scraper into a hybrid browser-API extraction platform
-- **ScoreWise** — improving prediction accuracy with better data pipelines
+https://github.com/TisoneK/Task2SMS
 
 ---
 
-## Connect
+# Frameworks & Development Tools
 
-- 🐙 GitHub: [github.com/TisoneK](https://github.com/TisoneK)
-- 🏢 Sky Tech Solutions
+## ⚙ agentfile
+File format and CLI for defining AI-driven workflows using YAML and Markdown.
+
+Workflows are executed by IDE agents, allowing developers to describe what each step does and how the LLM should perform it.
+
+https://github.com/TisoneK/agentfile
 
 ---
 
-*The wall is never the end.*
+## 📜 crawlspec
+Specification format for defining web crawling or scraping strategies.
+
+Designed to standardize how scraping workflows describe targets, selectors, and extraction rules.
+
+https://github.com/TisoneK/crawlspec
+
+---
+
+# Security & Analysis Tools
+
+## 🔎 api-scanner
+Tool for scanning APIs and discovering endpoints or potential weaknesses.
+
+Useful during security analysis or when mapping unknown APIs.
+
+https://github.com/TisoneK/api-scanner
+
+---
+
+## 📡 header-extractor
+Utility for extracting HTTP headers from requests and responses for debugging and analysis.
+
+https://github.com/TisoneK/header-extractor
+
+---
+
+# Networking & Infrastructure
+
+## 🌐 tproxy
+Networking utility related to proxy routing and traffic interception.
+
+https://github.com/TisoneK/tproxy
+
+---
+
+# Automation & Utilities
+
+## 🤖 WebAutoPy
+Python automation utilities for interacting with websites and automating browser workflows.
+
+https://github.com/TisoneK/WebAutoPy
+
+---
+
+## 🔤 wordlistvariationgenerator
+Generates variations of words for testing authentication systems, fuzzing, and security research.
+
+https://github.com/TisoneK/wordlistvariationgenerator
+
+---
+
+## ⏱ countdown
+Simple countdown utility script.
+
+https://github.com/TisoneK/countdown
+
+---
+
+# Other Projects
+
+## 💰 skyledger
+Accounting / finance-related software project.
+
+https://github.com/TisoneK/skyledger
+
+---
+
+# About
+
+I build software that solves real problems:
+
+- scraping systems  
+- automation tools  
+- prediction algorithms  
+- developer frameworks  
+
+No strict niche — just building whatever needs building.
+
+---
+
+# Current Focus
+
+- **Scrapamoja** — evolving into a resilient hybrid scraping platform  
+- **ScoreWise** — improving prediction accuracy through better data pipelines  
+
+---
+
+# Organization
+
+**Sky Tech Solutions**
+
+Technology solutions, automation systems, and digital tools.
